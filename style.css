@@ -1,0 +1,485 @@
+/* Start General Rules*/
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Alegreya Sans', sans-serif;;
+    list-style-type: none;
+}
+.container 
+{
+    width: 1240px;
+    margin: 0px auto;
+}
+.clr
+{
+    clear: both;
+}
+/* End General Rules */
+/* Start Header */
+.header 
+{
+    background-image: url("images/drew-coffman-1872.jpg");
+    background-size: 100%;
+    background-position: center;
+    color: #e0dcd2;
+}
+.header .navigation 
+{
+    margin-bottom: 40px;
+}
+.header .navigation img
+{
+    width: 177px;
+    height: 50px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.header .navigation ul
+{
+    float: right;
+    list-style-type: none;
+}
+.header .navigation ul li:first-child
+{
+    border-top:5px solid #8e7754;
+}
+.header .navigation ul li 
+{
+    display: inline-block;
+    height: 100%;
+    padding: 40px 12px;
+}
+.header .navigation ul li :hover 
+{
+    color: #8e7754;
+}
+.header .navigation ul li a
+{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+.header .home
+{
+    text-align: center;
+    margin-top: 140px;
+    overflow: auto;
+}
+.header .home .firstP
+{
+    font-size: 22px;
+    width: 300px;
+    margin: 0px auto 5px;
+}
+.header .home h1
+{
+    color: #FFF;
+    font-size: 75px;
+    width: 600px;
+    margin: 0px auto 18px;
+    line-height: 1.2em;
+    font-weight: 400;
+}
+.header .home .secondP
+{
+    font-size: 23px;
+    width: 700px;
+    margin: 0px auto 20px;
+    line-height: 40px;
+}
+.header .home .firstB , .secondB
+{
+    padding:15px;
+    margin: 20px 10px;
+    color:#FFF;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header .home .firstB
+{
+    background-color: #8E7754;
+    border: 2px solid #8E7754;
+}
+.header .home .secondB
+{
+    background: none;
+    border:2px solid #FFF;
+}
+.header .home .firstB:hover
+{
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    color:#333;
+}
+.header .home .secondB:hover
+{
+    background-color: #FFF;
+    color:#333;
+}
+.header .home .point
+{
+    display: block;
+    border: 2px solid #FFF;
+    border-radius: 42%;
+    width:32px;
+    height: 50px;
+    background: none;
+    margin: 60px auto;
+    position: relative;
+}
+.header .home .point span
+{
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    top:-40px;
+    left: 8px;
+    font-size: 60px;
+    color: #FFF;
+}
+/* End Header */
+/* Start About */
+.about
+{
+    margin-top:80px;
+    margin-bottom: 80px;
+}
+.about .image
+{
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+}
+.about .image img
+{
+    width: 100%;
+    height: 540px;
+}
+.about .about-us 
+{
+    width: 50%;
+    float: left;
+}
+.about .about-us div
+{
+    margin: 20px 10px;
+    padding: 15px;
+}
+.about .about-us div h2
+{
+    font-size: 32px;
+    color: #303030;
+    line-height: 1.40em;
+    margin-bottom: 26px;
+    font-weight: 400;
+}
+.about .about-us div p
+{
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+    font-size: 18px;
+}
+.about .about-us div ul li
+{
+    display: block;
+    position: relative;
+    line-height: 1.50em;
+}
+.about .about-us div ul li span
+{
+    position: absolute;
+    top: 16px;
+    left: 55px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+}
+.about .about-us div ul li:last-child span
+{
+    top: 13px;
+}
+/* End About */
+/* Start Location*/
+.location
+{
+    background-color: #F8F8F8;
+    width: 100%;
+    overflow: hidden;
+}
+.location .loca1
+{
+    width: 45%;
+    float: left;
+    margin: 60px 0px;
+    margin-left: 5%;
+}
+.location .loca1 .loca2
+{
+    padding: 80px 0px;
+}
+.location .loca1 .loca2 h2
+{
+    font-size: 32px;
+    color:#303030;
+    line-height: 1.38em;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.location .loca1 .loca2 p
+{
+    font-size: 17px;
+    color:#686868;
+    line-height: 1.86em;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.location .image2
+{
+    width: 45%;
+    float: left;
+    margin: 60px 0px;
+    margin-left: 5%;
+}
+.location .image2 img
+{
+    width: 100%;
+}
+/* End Location */
+/* Start Products */
+.products
+{
+    margin-top: 50px;
+}
+.products .prodhead 
+{
+    text-align: center;
+    padding: 20px;
+}
+.products .prodhead h2
+{
+    font-size: 40px;
+    color: #303030;
+    font-weight: 400;
+    line-height: 1.86em;
+}
+.products .prodhead p 
+{
+    font-size: 20px;
+    color: #686868;
+    font-weight: 400;
+    line-height: 1.86em;
+}
+.products .product
+{
+    padding: 30px 0px;
+    overflow: auto;
+}
+.products .product div
+{
+    width: 33.333333%;
+    float: left;
+    text-align: center;
+}
+.products .product div img
+{
+    width: 378px;
+    margin-bottom: 20px;
+}
+.products .product div h3
+{
+    font-size: 22px;
+    color: #303030;
+    font-weight: 400;
+    line-height: 1.86em;
+}
+.products .product div p
+{
+    font-size: 17px;
+    color: #686868;
+    font-weight: 400;
+    line-height: 1.86em;
+}
+/* End Products */
+/* Start Contact-us */
+.contact
+{
+    background-color: #F8F8F8;
+    width: 100%;
+    overflow: auto;
+}
+.contact .info
+{
+    width: 45%;
+    float: left;
+    margin: 70px 0px;
+    margin-right: 5%;
+    
+}
+.contact .info div 
+{
+    padding: 15px 0px;
+}
+.contact .info div h2
+{
+    font-size: 32px;
+    color: #303030;
+    font-weight: 400;
+    line-height: 1.86em;
+}
+.contact .info div p
+{
+    font-size: 17px;
+    color: #686868;
+    font-weight: 400;
+    line-height: 1.86em;
+    margin-bottom: 10px;
+}
+.contact .info div ul
+{
+    margin-top: 20px;
+}
+.contact .info div ul li
+{
+    display: block;
+    position: relative;
+    line-height: 1.50em;
+}
+.contact .info div ul li span
+{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    font-size: 17px;
+    color: #686868;
+    font-weight: 400;
+    line-height: 1.86em;
+}
+.contact .maping
+{
+    width: 45%;
+    float: left;
+    margin: 70px 0px;
+    margin-left: 5%;
+}
+.contact .maping iframe
+{
+    width: 100%;
+    height: 500px;
+}
+/* End Contact-us */
+/* Start Footer-Top */
+.footer-top
+{
+    width: 100%;
+    background-size: 100%;
+    background-color: #403d38;
+    overflow: hidden;
+}
+.footer-top .part
+{
+    float: left;
+    width: 23%;
+    margin: 60px 0px 50px;
+    padding-right: 20px;
+    font-size: 16px;
+    color: #969696;
+    font-weight: 400;
+    line-height: 1.86em;
+}
+.footer-top .part.last
+{
+    padding-right: 0px;  
+    
+}
+.footer-top .container.imgcover
+{
+    background-image: url("images/contact-details-map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.11;
+}
+.footer-top .part h3
+{
+    font-size: 18px;
+    color: #FFF;
+    margin-bottom: 25px;
+    font-weight: 400;
+    line-height: 1.38em;
+}
+.footer-top .part p, .footer-top .part .details div, .footer-top .part ul li
+{
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 1.86em;
+    
+}
+.footer-top .part .details div, .footer-top .part ul li
+{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding-bottom: 10px;
+}
+.footer-top .part.last .details
+{
+    position: relative;
+}
+.footer-top .part.last .details:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("images/contact-details-map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+}
+.footer-top .part.last .details div
+{
+    opacity: 1;
+    position: relative;
+}
+.footer-top .part.last .details div span
+{
+    position: absolute;
+    top: -3px;
+    left: 35px;
+}
+.footer-top .part.last .details div:first-child
+{
+    padding-bottom: 20px;
+}
+.footer-top .part .details div:last-child
+{
+    border-bottom: none;
+}
+/* End .footer-Top */
+/* Start .footer-Bottom */
+.footer-bottom
+{
+    background-color: #353330;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+.footer-bottom div:first-child
+{
+    margin: 50px auto 25px;
+}
+.footer-bottom div:first-child p
+{
+    color: #777;
+    margin-top: 5px;
+    line-height: 1.86em;
+}
+.footer-bottom div:last-child img
+{
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+/* End .footer-Bottom */
